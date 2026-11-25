@@ -1,0 +1,30 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env
+.env*.local
+npm-debug.log*
+.DS_Store
+
+# Local runtime models and native binaries are not portable to Vercel
+models/
+bin/
+
+# Writable runtime state; keep the committed seed data and generated samples
+data/brain/tmp/
+data/brain/backups/
+data/image-assets/
+data/image-inputs/
+.downloads/
+scripts/.downloads/
+
+# Local training/backup artifacts and logs
+scripts/*.ckpt*
+scripts/*.resume*
+scripts/word-model-*.json
+scripts/word-model-*.resume.json
+scripts/*.log
+scripts/*-log.txt
+*.sqlite-shm
+*.sqlite-wal
