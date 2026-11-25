@@ -1,0 +1,47 @@
+import { DEFAULT_VIDEO_SETTINGS, type ImageGenerationSettings, type ImageSettings } from "./types";
+
+/** A/B-tested default: SD 1.5 F16 at 384px, 20 steps with UCache 0.40. */
+export const DEFAULT_IMAGE_GENERATION: ImageGenerationSettings = {
+  width: 384,
+  height: 384,
+  steps: 20,
+  guidance: 7,
+  seed: null,
+  negativePrompt: "blurry, low quality, distorted, watermark, text, unnatural colors, color cast, oversaturated, discolored, extra limbs, deformed anatomy, malformed hands",
+  style: "photorealistic",
+  strength: 0.55,
+  hires: false,
+  speed: "balanced",
+  autoEnhance: false,
+  quality: "high",
+  aspect: "square",
+  batchCount: 1,
+  modelId: "auto",
+  sampler: "auto",
+  scheduler: "auto",
+  editMode: "text",
+  lighting: "",
+  camera: "",
+  perspective: "",
+  composition: "",
+  colorPalette: "",
+  depthOfField: "",
+  detailLevel: "",
+  atmosphere: "",
+  weather: "",
+  timeOfDay: "",
+  texture: "",
+  realism: "",
+  referenceIds: [],
+  outpaintDirection: "all",
+};
+
+export const DEFAULT_IMAGE_SETTINGS: ImageSettings = {
+  researchEnabled: true,
+  forceResearch: false,
+  maxReferences: 6,
+  autoSaveKnowledge: true,
+  enhancePrompt: true,
+  generation: DEFAULT_IMAGE_GENERATION,
+  video: { ...DEFAULT_VIDEO_SETTINGS },
+};
