@@ -1,0 +1,49 @@
+{
+  "id": "f28f9233-952b-4de5-bf27-7c183392ee41",
+  "originalPrompt": "A cool grey plane with guns",
+  "finalPrompt": "A cool grey plane with guns, wings, fuselage, tail fin, engines, cool silver-grey tones, blue color palette, bright high-key tones, photorealistic rendering, dark tonal range, coastal water detail, night-time lighting, photograph, highly detailed, sharp focus, soft natural light",
+  "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+  "model": "Stable Diffusion 1.5 Q4_1 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 14,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/f28f9233-952b-4de5-bf27-7c183392ee41",
+  "createdAt": "2026-11-22T23:08:54.836Z",
+  "durationMs": 251548,
+  "researchSummary": {
+    "skipped": false,
+    "subjects": [
+      "airplane",
+      "cool",
+      "grey",
+      "guns"
+    ],
+    "references": 6,
+    "characteristics": [
+      "photorealistic rendering",
+      "cool silver-grey tones",
+      "blue color palette",
+      "red color accents",
+      "green color palette",
+      "bright high-key tones",
+      "coastal water detail",
+      "night-time lighting",
+      "wide composition"
+    ],
+    "queries": [
+      "airplane filetype:bitmap",
+      "cool filetype:bitmap",
+      "grey filetype:bitmap",
+      "airplane cool grey guns filetype:bitmap"
+    ]
+  },
+  "feedback": []
+}

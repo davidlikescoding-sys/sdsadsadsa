@@ -1,0 +1,86 @@
+{
+  "id": "5fa01928-f1b7-48bf-aa35-d1b17eeb8e43",
+  "originalPrompt": "a small red bicycle leaning against a white wall, soft daylight, photorealistic",
+  "finalPrompt": "a small red bicycle leaning against a white wall, soft daylight, photorealistic, recognizable silhouette, correct mechanical layout",
+  "negativePrompt": "blurry, low quality, distorted, watermark, text, unnatural colors, color cast, oversaturated, discolored, broken geometry, floating parts, duplicated parts",
+  "model": "DreamShaper 7 LCM Q4_0 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 6,
+    "guidance": 1.5,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text",
+    "style": "photorealistic",
+    "strength": 0.55,
+    "hires": false,
+    "speed": "quality",
+    "autoEnhance": false,
+    "quality": "draft",
+    "aspect": "square",
+    "lighting": "",
+    "camera": "",
+    "perspective": "",
+    "composition": "",
+    "colorPalette": "",
+    "depthOfField": "",
+    "detailLevel": "",
+    "atmosphere": "",
+    "weather": "",
+    "timeOfDay": "",
+    "texture": "",
+    "realism": "",
+    "batchCount": 1,
+    "modelId": "dreamshaper-lcm",
+    "sampler": "lcm",
+    "scheduler": "lcm",
+    "editMode": "text",
+    "referenceIds": [],
+    "outpaintDirection": "all"
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/5fa01928-f1b7-48bf-aa35-d1b17eeb8e43",
+  "createdAt": "2026-11-23T22:08:32.409Z",
+  "durationMs": 134759,
+  "researchSummary": {
+    "skipped": true,
+    "subjects": [
+      "bicycle",
+      "photorealistic",
+      "red",
+      "against",
+      "leaning",
+      "soft"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": [],
+  "render": {
+    "diffusion": {
+      "width": 384,
+      "height": 384,
+      "steps": 6,
+      "cfg": 1.5,
+      "seed": 287388457,
+      "sampler": "lcm",
+      "scheduler": "lcm",
+      "cacheMode": "quality",
+      "threads": 4,
+      "vaeTiling": false,
+      "hires": false,
+      "hiresSteps": 0,
+      "modelFile": "C:\\Users\\ziyan\\Documents\\默认项目\\davidai\\models\\dreamshaper-7-lcm-q4_0.gguf",
+      "engine": "stable-diffusion.cpp"
+    },
+    "final": {
+      "width": 384,
+      "height": 384,
+      "source": "diffusion"
+    }
+  },
+  "pipelineNotes": [
+    "Compact subject-first prompt compiler used; long dataset/anatomy lists were withheld to keep the subject recognizable."
+  ]
+}

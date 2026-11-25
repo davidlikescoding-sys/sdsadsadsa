@@ -1,0 +1,87 @@
+{
+  "id": "8f0db1a5-ffea-4990-b4f2-d0545a4cf865",
+  "originalPrompt": "a golden retriever sitting in a snowy pine forest at golden hour, close-up, shallow depth of field, photorealistic",
+  "finalPrompt": "a golden retriever sitting in a snowy pine forest at golden hour, close-up, shallow depth of field, photorealistic, natural animal anatomy, correct silhouette, warm golden hour light, warm gold and amber tones, forest environment",
+  "enhancedPrompt": "a golden retriever sitting in a snowy pine forest at golden hour, close-up, shallow depth of field, photorealistic, forest environment, snow and winter detail, warm golden hour light, extreme close framing, shallow depth of field with soft bokeh, warm gold and amber tones, photograph",
+  "negativePrompt": "blurry, low quality, distorted, watermark, text, unnatural colors, color cast, oversaturated, discolored, extra limbs, deformed anatomy, malformed hands, mutated shape",
+  "model": "Stable Diffusion 1.5 F16 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 20,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, unnatural colors, color cast, oversaturated, discolored, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55,
+    "hires": false,
+    "speed": "balanced",
+    "autoEnhance": false,
+    "quality": "high",
+    "aspect": "square",
+    "lighting": "",
+    "camera": "",
+    "perspective": "",
+    "composition": "",
+    "colorPalette": "",
+    "depthOfField": "",
+    "detailLevel": "",
+    "atmosphere": "",
+    "weather": "",
+    "timeOfDay": "",
+    "texture": "",
+    "realism": "",
+    "batchCount": 1,
+    "modelId": "auto",
+    "sampler": "auto",
+    "scheduler": "auto",
+    "editMode": "text",
+    "referenceIds": [],
+    "outpaintDirection": "all"
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/8f0db1a5-ffea-4990-b4f2-d0545a4cf865",
+  "createdAt": "2026-11-23T17:36:43.482Z",
+  "durationMs": 238416,
+  "researchSummary": {
+    "skipped": true,
+    "subjects": [
+      "golden retriever",
+      "forest",
+      "photorealistic",
+      "golden hour",
+      "close-up",
+      "depth of field"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": [],
+  "render": {
+    "diffusion": {
+      "width": 384,
+      "height": 384,
+      "steps": 20,
+      "cfg": 7,
+      "seed": 611901986,
+      "sampler": "euler",
+      "scheduler": "karras",
+      "cacheMode": "balanced",
+      "threads": 4,
+      "vaeTiling": false,
+      "hires": false,
+      "hiresSteps": 0,
+      "modelFile": "C:\\Users\\ziyan\\Documents\\默认项目\\davidai\\models\\stable-diffusion-v1-5-f16.gguf",
+      "engine": "stable-diffusion.cpp"
+    },
+    "final": {
+      "width": 384,
+      "height": 384,
+      "source": "diffusion"
+    }
+  },
+  "pipelineNotes": [
+    "Compact subject-first prompt compiler used; long dataset/anatomy lists were withheld to keep the subject recognizable."
+  ]
+}

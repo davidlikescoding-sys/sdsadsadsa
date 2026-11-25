@@ -1,0 +1,33 @@
+{
+  "id": "4a5aaf72-cdb5-47f2-ba9f-e8b8dd1b1f37",
+  "originalPrompt": "A cool grey plane with guns",
+  "finalPrompt": "A grey airplane with wing-mounted cannons, flying in the sky, full exterior view, full airplane exterior visible, two wings of equal size extending left and right, engines mounted under the wings, tail assembly at the rear of the fuselage, nose at the front of the fuselage, two symmetrical wings of equal span, long cylindrical fuselage, forward-firing autocannon, photograph",
+  "negativePrompt": "car interior, dashboard, steering wheel, cockpit interior, one wing larger than the other, asymmetric wings, small wing, engine on top of the fuselage, missing tail, tail at the front, guns mounted on top of the fuselage, guns above the wings, blurry, low quality, distorted, watermark, text, extra limbs",
+  "model": "Stable Diffusion 1.5 Q4_1 GGUF + Real-ESRGAN 4x",
+  "settings": {
+    "width": 1024,
+    "height": 1024,
+    "steps": 12,
+    "guidance": 7,
+    "seed": 42,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/4a5aaf72-cdb5-47f2-ba9f-e8b8dd1b1f37",
+  "createdAt": "2026-11-23T11:23:38.507Z",
+  "durationMs": 159921,
+  "researchSummary": {
+    "skipped": true,
+    "subjects": [
+      "airplane",
+      "aircraft guns"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": [],
+  "upscaleSourceId": "b885c214-689e-49ca-8505-040c956a78dc"
+}

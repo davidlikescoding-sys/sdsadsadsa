@@ -1,0 +1,50 @@
+{
+  "id": "fa971492-c42d-4a1f-be07-17b07e517fa5",
+  "originalPrompt": "A macro shot of a chrome wristwatch on a dark wooden desk",
+  "finalPrompt": "A macro shot of a chrome wristwatch on a dark wooden desk, dial face on the front, strap attached at top and bottom, hands centred on the dial, clean uncluttered background, extreme close framing, shallow depth of field, mirror-like metal, photograph, highly detailed, soft natural light",
+  "negativePrompt": "strap fused to the dial, two faces, clock tower, hands outside the dial, busy background, random objects, trees, smoke, buildings behind the subject, blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+  "model": "Stable Diffusion 1.5 F16 GGUF",
+  "settings": {
+    "width": 256,
+    "height": 256,
+    "steps": 16,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55,
+    "hires": false,
+    "speed": "balanced",
+    "autoEnhance": true
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/fa971492-c42d-4a1f-be07-17b07e517fa5",
+  "createdAt": "2026-11-23T12:20:38.178Z",
+  "durationMs": 131158,
+  "researchSummary": {
+    "skipped": false,
+    "subjects": [
+      "watch",
+      "macro",
+      "chrome",
+      "desk",
+      "shot",
+      "wooden"
+    ],
+    "references": 6,
+    "characteristics": [
+      "cool silver-grey tones",
+      "dark tonal range",
+      "close-up framing",
+      "snow and winter detail",
+      "transparent glass-like surface"
+    ],
+    "queries": [
+      "watch filetype:bitmap",
+      "macro filetype:bitmap",
+      "chrome filetype:bitmap",
+      "watch macro chrome dark filetype:bitmap"
+    ]
+  },
+  "feedback": []
+}

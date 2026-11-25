@@ -1,0 +1,33 @@
+{
+  "id": "8481337e-1b88-48fa-b63a-f2d33753243c",
+  "originalPrompt": "a man in a suit",
+  "finalPrompt": "a man in a suit, adult male face and head, shoulders and torso, two arms with natural hands, two legs, upright posture, tailored jacket with notched lapels, matching suit trousers, collared dress shirt, necktie, structured shoulders, smooth wool fabric, photograph, highly detailed, sharp focus, realistic human anatomy, natural skin texture, correct proportions, soft natural light",
+  "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands, extra fingers, disfigured face",
+  "model": "Stable Diffusion 1.5 Q4_1 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 14,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/8481337e-1b88-48fa-b63a-f2d33753243c",
+  "createdAt": "2026-11-22T22:58:07.516Z",
+  "durationMs": 272754,
+  "researchSummary": {
+    "skipped": true,
+    "reason": "Existing visual knowledge covers these subjects.",
+    "subjects": [
+      "man",
+      "suit"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": []
+}

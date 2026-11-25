@@ -1,0 +1,33 @@
+{
+  "id": "6b23a4de-a2d7-40db-834b-fbfb708a247f",
+  "originalPrompt": "A cool grey plane with guns",
+  "finalPrompt": "A cool grey plane with guns, two wings of equal size extending left and right, engines mounted under the wings or inside the fuselage, tail assembly at the rear of the fuselage, cockpit at the front of the fuselage, wings attached mid-fuselage at the same height, two symmetrical wings of equal span, long cylindrical fuselage, forward-firing autocannon, photograph",
+  "negativePrompt": "one wing larger than the other, asymmetric wings, unequal wingspan, single wing, small wing, engine on top of the fuselage, engine above the wing, wing on the roof, missing tail, tail at the front, cockpit at the rear, guns mounted on top of the fuselage, blurry, low quality, distorted, watermark, text",
+  "model": "Realistic Vision V6 Q4_1 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 20,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/6b23a4de-a2d7-40db-834b-fbfb708a247f",
+  "createdAt": "2026-11-22T23:29:00.750Z",
+  "durationMs": 378777,
+  "researchSummary": {
+    "skipped": true,
+    "reason": "Existing visual knowledge covers these subjects.",
+    "subjects": [
+      "airplane",
+      "aircraft guns"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": []
+}

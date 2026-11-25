@@ -1,0 +1,74 @@
+{
+  "id": "b0b61658-e4ef-4e74-a12b-e996287676f4",
+  "originalPrompt": "A cool grey plane with guns",
+  "finalPrompt": "A grey airplane with wing-mounted cannons, flying in a blue sky, full exterior view, two wings of equal size extending left and right, engines mounted under the wings, photograph",
+  "negativePrompt": "car interior, dashboard, steering wheel, cockpit interior, one wing larger than the other, asymmetric wings, small wing, engine on top of the fuselage, missing tail, tail at the front, guns mounted on top of the fuselage, guns above the wings, blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy",
+  "model": "Stable Diffusion 1.5 F16 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 20,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/b0b61658-e4ef-4e74-a12b-e996287676f4",
+  "createdAt": "2026-11-23T00:13:12.262Z",
+  "durationMs": 360681,
+  "researchSummary": {
+    "skipped": true,
+    "reason": "Existing visual knowledge covers these subjects.",
+    "subjects": [
+      "airplane",
+      "aircraft guns"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": [
+    {
+      "id": "6b668214-8982-4a8a-a39a-cdfc393d53f6",
+      "rating": "dislike",
+      "correction": "the nose is flat",
+      "kinds": [
+        "correction",
+        "visual-fact"
+      ],
+      "createdAt": "2026-11-23T02:02:58.876Z"
+    },
+    {
+      "id": "f76d4530-0aff-4f2c-88d0-fa0afe932ef8",
+      "rating": "dislike",
+      "correction": "you can barely even see the landing gear",
+      "kinds": [
+        "correction",
+        "visual-fact"
+      ],
+      "createdAt": "2026-11-23T02:02:59.021Z"
+    },
+    {
+      "id": "8d2fa970-832c-4537-9bf4-cc75944bb298",
+      "rating": "dislike",
+      "correction": "the shadows are wrong",
+      "kinds": [
+        "correction",
+        "visual-fact"
+      ],
+      "createdAt": "2026-11-23T02:02:59.075Z"
+    },
+    {
+      "id": "bac9ef50-07ec-43b2-a33a-3452b03baf3d",
+      "rating": "dislike",
+      "correction": "theres a weird bus in the backround and dense forest or smoke which should not be there",
+      "kinds": [
+        "correction",
+        "visual-fact"
+      ],
+      "createdAt": "2026-11-23T02:02:59.105Z"
+    }
+  ]
+}

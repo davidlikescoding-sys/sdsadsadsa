@@ -1,0 +1,32 @@
+{
+  "id": "bc26493f-1868-4d03-8399-f79b00777581",
+  "originalPrompt": "A cool grey plane with guns",
+  "finalPrompt": "A grey airplane with wing-mounted cannons, flying in a clear blue sky, full exterior view, isolated subject, soft natural light, two wings of equal size extending left and right, engines mounted under the wings, pointed streamlined nose cone, extended landing gear clearly visible beneath the fuselage, consistent soft natural shadows, clean empty sky background with no other objects, photograph",
+  "negativePrompt": "one wing larger than the other, asymmetric wings, small wing, engine on top of the fuselage, missing tail, flat nose, missing landing gear, car interior, dashboard, steering wheel, bus, truck, trees, forest, smoke, buildings, harsh inconsistent shadows, wrong lighting, blurry, low quality, distorted, watermark, text, extra limbs",
+  "model": "Stable Diffusion 1.5 F16 GGUF",
+  "settings": {
+    "width": 384,
+    "height": 384,
+    "steps": 20,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/bc26493f-1868-4d03-8399-f79b00777581",
+  "createdAt": "2026-11-23T02:17:22.883Z",
+  "durationMs": 405628,
+  "researchSummary": {
+    "skipped": true,
+    "subjects": [
+      "airplane",
+      "aircraft guns"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "48a628db-efcc-463f-a3c8-f78cb6c0174f",
+  "originalPrompt": "a red apple on a wooden table",
+  "finalPrompt": "Original request: a red apple on a wooden table.\nVisual description:\na red apple on a wooden table. flat surface. legs. human-scale height. warm red hue. strong visual emphasis. red color accents. visible wood grain.",
+  "negativePrompt": "blurry",
+  "model": "Stable Diffusion 1.5 Q4_1 GGUF",
+  "settings": {
+    "width": 256,
+    "height": 256,
+    "steps": 4,
+    "guidance": 7,
+    "seed": 1,
+    "negativePrompt": "blurry",
+    "style": "auto",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/48a628db-efcc-463f-a3c8-f78cb6c0174f",
+  "createdAt": "2026-11-22T22:30:21.489Z",
+  "durationMs": 47487,
+  "researchSummary": {
+    "skipped": true,
+    "subjects": [
+      "table",
+      "red",
+      "apple",
+      "wooden"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": []
+}

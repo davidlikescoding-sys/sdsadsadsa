@@ -1,0 +1,88 @@
+{
+  "id": "a894ed3e-edf5-4aee-816e-f34a18d80248",
+  "originalPrompt": "Create an ultra-realistic futuristic megacity at night in the year 2085.\n\nA massive futuristic city stretches into the distance, filled with enormous skyscrapers, glowing holographic advertisements, flying vehicles, elevated highways, and countless illuminated windows.\n\nThe scene is taking place during heavy rain. Wet streets reflect vibrant cyan, electric blue, purple, and subtle pink neon lights. Small details include pedestrians carrying transparent umbrellas, autonomous robots walking along sidewalks, futuristic public transportation, and tiny illuminated signs written in fictional languages.\n\nIn the distance, enormous skyscrapers disappear into thick atmospheric fog. Flying cars leave subtle light trails between buildings.\n\nCamera perspective: street-level cinematic photography, looking upward toward the skyscrapers.\n\nLighting: physically realistic reflections, volumetric lighting, atmospheric fog, realistic shadows, and detailed reflections in puddles.\n\nVisual quality: extremely detailed, photorealistic, cinematic, professional architectural photography, realistic materials, natural depth of field, 8k detail",
+  "finalPrompt": "Create an ultra-realistic futuristic megacity at night in the year 2085. A massive futuristic city stretches into the distance, filled with enormous skyscrapers, glowing holographic advertisements, flying vehicles, elevated highways, and, neon accent lighting, cool moonlit illumination, rainy",
+  "enhancedPrompt": "Create an ultra-realistic futuristic megacity at night in the year 2085. A massive futuristic city stretches into the distance, filled with enormous skyscrapers, glowing holographic advertisements, flying vehicles, elevated highways, and countless illuminated windows. The scene is taking place during heavy rain. Wet streets reflect vibrant cyan, electric blue, purple, and subtle pink neon lights. Small details include pedestrians carrying transparent umbrellas, autonomous robots walking along sidewalks, futuristic public transportation, and tiny illuminated signs written in fictional languages. In the distance, enormous skyscrapers disappear into thick atmospheric fog. Flying cars leave subtle light trails between buildings. Camera perspective: street-level cinematic photography, looking upward toward the skyscrapers. Lighting: physically realistic reflections, volumetric lighting, atmos",
+  "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands, unnatural colors, color cast, oversaturated, discolored",
+  "model": "Stable Diffusion 1.5 F16 GGUF",
+  "settings": {
+    "width": 256,
+    "height": 256,
+    "steps": 16,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs, deformed anatomy, malformed hands",
+    "style": "photorealistic",
+    "strength": 0.55,
+    "hires": false,
+    "speed": "quality",
+    "autoEnhance": true,
+    "quality": "high",
+    "aspect": "square",
+    "lighting": "",
+    "camera": "",
+    "perspective": "",
+    "composition": "",
+    "colorPalette": "",
+    "depthOfField": "",
+    "detailLevel": "",
+    "atmosphere": "",
+    "weather": "",
+    "timeOfDay": "",
+    "texture": "",
+    "realism": "",
+    "batchCount": 1,
+    "modelId": "auto",
+    "sampler": "auto",
+    "scheduler": "auto",
+    "editMode": "text",
+    "referenceIds": [],
+    "outpaintDirection": "all"
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/a894ed3e-edf5-4aee-816e-f34a18d80248",
+  "createdAt": "2026-11-23T18:09:55.642Z",
+  "durationMs": 129168,
+  "researchSummary": {
+    "skipped": true,
+    "reason": "Existing visual knowledge covers these subjects.",
+    "subjects": [
+      "city",
+      "photorealistic",
+      "blue",
+      "camera",
+      "depth of field",
+      "purple"
+    ],
+    "references": 0,
+    "characteristics": [],
+    "queries": []
+  },
+  "feedback": [],
+  "render": {
+    "diffusion": {
+      "width": 256,
+      "height": 256,
+      "steps": 16,
+      "cfg": 7,
+      "seed": 492050809,
+      "sampler": "euler",
+      "scheduler": "karras",
+      "cacheMode": "quality",
+      "threads": 4,
+      "vaeTiling": false,
+      "hires": false,
+      "hiresSteps": 0,
+      "modelFile": "C:\\Users\\ziyan\\Documents\\默认项目\\davidai\\models\\stable-diffusion-v1-5-f16.gguf",
+      "engine": "stable-diffusion.cpp"
+    },
+    "final": {
+      "width": 256,
+      "height": 256,
+      "source": "diffusion"
+    }
+  },
+  "pipelineNotes": [
+    "Compact subject-first prompt compiler used; long dataset/anatomy lists were withheld to keep the subject recognizable."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "fc8504a2-fa27-4dc5-85cc-301d5d3c8632",
+  "originalPrompt": "a man in a suit",
+  "finalPrompt": "Original request: a man in a suit.\nVisual description:\na man in a suit. red color accents. dark tonal range. close-up framing. cool silver-grey tones. natural proportions. physically plausible light. sharp focus on subject. realistic material texture.",
+  "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs",
+  "model": "Stable Diffusion 1.5 Q4_1 GGUF",
+  "settings": {
+    "width": 256,
+    "height": 256,
+    "steps": 4,
+    "guidance": 7,
+    "seed": null,
+    "negativePrompt": "blurry, low quality, distorted, watermark, text, extra limbs",
+    "style": "photorealistic",
+    "strength": 0.55
+  },
+  "status": "complete",
+  "imageUrl": "/api/image/generated/fc8504a2-fa27-4dc5-85cc-301d5d3c8632",
+  "createdAt": "2026-11-22T22:44:02.223Z",
+  "durationMs": 49183,
+  "researchSummary": {
+    "skipped": false,
+    "subjects": [
+      "suit"
+    ],
+    "references": 6,
+    "characteristics": [
+      "red color accents",
+      "dark tonal range",
+      "close-up framing",
+      "cool silver-grey tones"
+    ],
+    "queries": [
+      "suit filetype:bitmap",
+      "suit man filetype:bitmap"
+    ]
+  },
+  "feedback": []
+}
